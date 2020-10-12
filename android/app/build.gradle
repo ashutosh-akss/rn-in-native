@@ -31,8 +31,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation "com.facebook.react:react-native:+" // From node_modules
-    implementation "org.webkit:android-jsc:+"
+//    implementation "com.facebook.react:react-native:+" // From node_modules
+//    implementation "org.webkit:android-jsc:+"
 }
 
-apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+//apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
